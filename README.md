@@ -12,7 +12,7 @@ This project evaluates the efficiency of data parallelism in machine learning wo
 - Memory-aware batch size handling for GPU constraints
 
 ## Folder Structure
-
+```bash
 .
 ├── cpu/
 │   ├── cpu_plots/            # Generated CPU performance plots
@@ -28,7 +28,7 @@ This project evaluates the efficiency of data parallelism in machine learning wo
 │   ├── project_ex_2.py       # GPU distributed training code
 │   └── run_gpu_experiments.sh # GPU experiment runner
 └── Report_Yassin_Es_Saim_Project.pdf  # Detailed project report
-
+```
 ## Usage
 
 ### CPU Experiments
