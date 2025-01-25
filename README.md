@@ -27,7 +27,7 @@ This project evaluates the efficiency of data parallelism in machine learning wo
 │   ├── gpu_plots_ex_2.py     # GPU data analysis & visualization
 │   ├── project_ex_2.py       # GPU distributed training code
 │   └── run_gpu_experiments.sh # GPU experiment runner
-└── Report/  # Detailed project report folder: LateX and PDF verison
+└── report/  # Detailed project report folder: LateX and PDF verison
 ```
 ## Usage
 
@@ -60,8 +60,8 @@ python gpu_plots_ex_2.py
 ## Key Scripts
 | File | Description |
 |------|-------------|
-| `run_experiments.sh` | Runs CPU experiments with batch size 32 and 1-8 cores |
-| `run_gpu_experiments.sh` | Runs GPU experiments with batch sizes 16-128 and 1-3 GPUs |
+| `run_experiments.sh` | Runs CPU experiments with batch size 32 and 1-8 cores (10 times) |
+| `run_gpu_experiments.sh` | Runs GPU experiments with batch sizes 16-128 and 1-3 GPUs (10 times) |
 | `plot_cpu_results.py` | Generates:<br>- Time Components Bar Chart<br>- Throughput Line Plot |
 | `gpu_plots_ex_2.py` | Generates:<br>- Throughput vs GPU plots for different batch sizes<br>- Optimal GPU configuration chart |
 
@@ -71,13 +71,6 @@ The generated plots show:
 - **GPU Scaling**: Super-linear throughput gains with multiple GPUs
 - **Batch Size Impact**: Larger batches require more GPUs for optimal performance
 - **Memory Constraints**: Batch size 128 requires ≥2 GPUs due to memory limits
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-4. Maintain test coverage
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) file for details.
