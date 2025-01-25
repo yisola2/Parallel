@@ -1,0 +1,2 @@
+run_id,num_devices,batch_size,loading_time,compute_time,rank
+8,1,32,0.7876062393188477,3.992042064666748,0
