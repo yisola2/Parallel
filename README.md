@@ -75,7 +75,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 ## References
 1. [NEF Cluster Documentation](https://wiki.inria.fr/ClustersSophia/Clusters_Home)
-2. [PyTorch Distributed Training](https://pytorch.org/docs/stable/distributed.html)
-3. [Imagenette Dataset](https://github.com/fastai/imagenette)
+2. [Imagenette Dataset](https://github.com/fastai/imagenette)
 
 For detailed analysis and methodology, see the [Project Report](report/Report_Yassin_Es_Saim_Project.pdf).
