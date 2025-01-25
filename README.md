@@ -27,7 +27,7 @@ This project evaluates the efficiency of data parallelism in machine learning wo
 │   ├── gpu_plots_ex_2.py     # GPU data analysis & visualization
 │   ├── project_ex_2.py       # GPU distributed training code
 │   └── run_gpu_experiments.sh # GPU experiment runner
-└── Report_Yassin_Es_Saim_Project.pdf  # Detailed project report
+└── Report/  # Detailed project report folder: LateX and PDF verison
 ```
 ## Usage
 
