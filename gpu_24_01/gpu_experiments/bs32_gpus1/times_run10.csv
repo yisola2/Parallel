@@ -1,2 +1,0 @@
-run_id,num_gpus,batch_size,loading_time,compute_time,rank
-10,1,32,0.5792291164398193,0.4940226078033447,0
