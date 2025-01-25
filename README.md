@@ -1,5 +1,5 @@
 
-```markdown
+
 # Evaluating Data Parallelism Efficiency in Machine Learning
 
 ## Project Description
@@ -12,7 +12,7 @@ This project evaluates the efficiency of data parallelism in machine learning wo
 - Memory-aware batch size handling for GPU constraints
 
 ## Folder Structure
-```
+
 .
 ├── cpu/
 │   ├── cpu_plots/            # Generated CPU performance plots
